@@ -102,34 +102,49 @@ section {
  }
  .Cards {
   display: flex;
-  justify-content: space-between;
- }
- .card {
+  justify-content: space-between; 
+}
+
+.Card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  width: 18%;
-  height: 150px;
- 
-  border-radius: 10px;
-  color: white;
-  font-size: 1.7rem;.
- }
- .card.red {
-  background-color: #ec454e;
- }
- .card.blue {
-  background-color: #42b0f8;
- }
- .card.purple {
-  background-color: #9e69d5;
- }
- .card.yellow {
-  background-color: #f4a823;
+
+  width: 230px;
+  height: 230px;
+
+  border-radius: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 1.7rem;
 }
-.card.green {
- background-color: #3cbfa1;
+
+.Card.red {
+  background-color: #289675;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Card.red:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Card.blue {
+  background-color: #369b4f;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Card.blue:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Card.yellow {
+  background-color: #fff7e7;
+  color: black;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Card.yellow:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 .members {
  display: flex;
